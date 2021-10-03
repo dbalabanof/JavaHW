@@ -18,13 +18,7 @@ public class Employee {
         this.salary = salary;
         this.age = age;
     }
-
-    // 3. Внутри класса «Сотрудник» написать метод, который выводит информацию об объекте в консоль.
-    public void info() {
-        System.out.println
-        ("ФИО сотрудника: " + fullName + ", должность: " + position + ", email: " + email + ", телефон: " + phone + ", зарплата: " + salary + ", возраст: " + age);
-    }
-
+    
     public String getFullName() {return fullName;}
     public String getPosition() {return position;}
     public String getEmail() {return email;}
@@ -32,6 +26,7 @@ public class Employee {
     public int getSalary(){return salary;}
     public int getAge(){return age;}
 
+    // 3. Внутри класса «Сотрудник» написать метод, который выводит информацию об объекте в консоль.
     public String getAllData() {
         return "ФИО: " + this.fullName
         + ", должность: " + this.position
