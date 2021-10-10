@@ -9,15 +9,11 @@ public class NorthLabel extends JPanel {
 
     NorthLabel() {
         configureNorthLabel();
-        constructNorthLabel();
-    }
-
-    private void constructNorthLabel() {
-        add(welcomeMessage);
     }
 
     public void configureNorthLabel() {
         welcomeMessage = new JLabel("Здравствуй, уважаемый пользователь!  Я - блокнот.  Напечатай в меня что-нибудь");
+        add(welcomeMessage);
     }
 
 }

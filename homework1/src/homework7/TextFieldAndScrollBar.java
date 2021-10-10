@@ -10,11 +10,6 @@ public class TextFieldAndScrollBar extends JPanel{
 
     TextFieldAndScrollBar() {
         configureTextField();
-        constructTextFieldAndScrollBar();
-    }
-
-    private void constructTextFieldAndScrollBar() {
-        add(scrollBar);
     }
 
     private void configureTextField() {
@@ -23,5 +18,6 @@ public class TextFieldAndScrollBar extends JPanel{
         textField.setLineWrap(true);
         textField.setColumns(50);
         textField.setRows(30);
+        add(scrollBar);
     }
 }

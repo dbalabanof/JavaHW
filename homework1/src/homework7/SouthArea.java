@@ -9,15 +9,11 @@ public class SouthArea extends JPanel {
 
     SouthArea() {
         configureSouthArea();
-        constructSouthArea();
     }
 
     private void configureSouthArea() {
         exit = new JButton("Exit");
         exit.setPreferredSize(new Dimension(772,35));
-    }
-
-    private void constructSouthArea() {
         add(exit);
     }
 }

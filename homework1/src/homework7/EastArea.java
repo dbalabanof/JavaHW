@@ -9,15 +9,11 @@ public class EastArea extends JPanel{
 
     EastArea() {
         configureEastButton();
-        constructEastButton();
-    }
-
-    private void constructEastButton() {
-        add(info);
     }
 
     private void configureEastButton() {
         info = new JButton("Info");
         info.setPreferredSize(new Dimension(100,482));
+        add(info);
     }
 }

@@ -9,16 +9,11 @@ public class WestArea extends JPanel{
 
     WestArea() {
         configureWestArea();
-        constructWestArea();
     }
 
     private void configureWestArea() {
         save = new JButton("Save");
         save.setPreferredSize(new Dimension(100,482));
-    }
-
-    private void constructWestArea() {
         add(save);
     }
-
 }
